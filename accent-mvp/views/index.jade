@@ -1,0 +1,18 @@
+// Jade
+html
+    head
+      title ChadWallaceHart.com
+      link(rel='stylesheet', href='/css/style.css')
+    body
+        h1 #{message}
+            #buttons
+                if title == 'available'
+                    form Click to:
+                        button#Audio(type='submit', value='Audio', formaction="/call", disabled) Audio
+                        button#Video(type='submit', value='Video', formaction="/video") Video
+    footer
+        tr
+            td  As seen on 
+            td 
+                a(href="http://webrtcHacks.com")
+                    img(src="/img/webrtcHacks.gif")

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlySpeechEvent.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlySpeechEvent</TokenIdentifier>
+			<Abstract type="html">服务端音频url</Abstract>
+			<DeclaredIn>IFlySpeechEvent.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlySpeechEvent/KEY_EVENT_SESSION_ID</TokenIdentifier>
+			<Abstract type="html">服务端会话key</Abstract>
+			<DeclaredIn>IFlySpeechEvent.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)KEY_EVENT_SESSION_ID</Declaration>
+			
+			
+			<Anchor>//api/name/KEY_EVENT_SESSION_ID</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlySpeechEvent/KEY_EVENT_TTS_BUFFER</TokenIdentifier>
+			<Abstract type="html">TTS取音频数据key</Abstract>
+			<DeclaredIn>IFlySpeechEvent.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)KEY_EVENT_TTS_BUFFER</Declaration>
+			
+			
+			<Anchor>//api/name/KEY_EVENT_TTS_BUFFER</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlySpeechEvent/KEY_EVENT_IVW_RESULT</TokenIdentifier>
+			<Abstract type="html">IVW oneshot 听写 or 识别结果 key</Abstract>
+			<DeclaredIn>IFlySpeechEvent.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)KEY_EVENT_IVW_RESULT</Declaration>
+			
+			
+			<Anchor>//api/name/KEY_EVENT_IVW_RESULT</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/IFlySpeechEvent/KEY_EVENT_AUDIO_URL</TokenIdentifier>
+			<Abstract type="html">服务端音频url key</Abstract>
+			<DeclaredIn>IFlySpeechEvent.h</DeclaredIn>			
+			
+			<Declaration>+ (NSString *)KEY_EVENT_AUDIO_URL</Declaration>
+			
+			
+			<Anchor>//api/name/KEY_EVENT_AUDIO_URL</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+	</File>
+</Tokens>
