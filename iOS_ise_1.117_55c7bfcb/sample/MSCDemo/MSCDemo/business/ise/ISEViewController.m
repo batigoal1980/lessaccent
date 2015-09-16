@@ -31,23 +31,25 @@
 
 #pragma mark - const values
 
-NSString* const KCIseViewControllerTitle=@"语音评测";
-NSString* const KCIseHideBtnTitle=@"隐藏";
-NSString* const KCIseSettingBtnTitle=@"设置";
-NSString* const KCIseStartBtnTitle=@"开始评测";
-NSString* const KCIseStopBtnTitle=@"停止评测";
-NSString* const KCIseParseBtnTitle=@"结果解析";
-NSString* const KCIseCancelBtnTitle=@"取消评测";
+NSString* const KCIseViewControllerTitle=@"Accent Evaluation";
+NSString* const KCIseHideBtnTitle=@"Hide";
+NSString* const KCIseSettingBtnTitle=@"Setting";
+NSString* const KCIseStartBtnTitle=@"Start";
+NSString* const KCIseStopBtnTitle=@"Stop";
+NSString* const KCIseParseBtnTitle=@"Result";
+NSString* const KCIseCancelBtnTitle=@"Cancel";
 
 NSString* const KCTextCNSyllable=@"text_cn_syllable";
 NSString* const KCTextCNWord=@"text_cn_word";
 NSString* const KCTextCNSentence=@"text_cn_sentence";
 NSString* const KCTextENWord=@"text_en_word";
 NSString* const KCTextENSentence=@"text_en_sentence";
+NSString* const KCTextENWord2=@"text_en_word2";
+NSString* const KCTextENSentence2=@"text_en_sentence";
 
-NSString* const KCResultNotify1=@"请点击“开始评测”按钮";
-NSString* const KCResultNotify2=@"请朗读以上内容";
-NSString* const KCResultNotify3=@"停止评测，结果等待中...";
+NSString* const KCResultNotify1=@"Please click Start";
+NSString* const KCResultNotify2=@"Please speak";
+NSString* const KCResultNotify3=@"Stop evaluation, Waiting...";
 
 
 #pragma mark -
@@ -314,8 +316,10 @@ static NSString *LocalizedEvaString(NSString *key, NSString *comment) {
         }
     }
     else {
-        if ([self.iseParams.category isEqualToString:KCCategoryWord]) {
+        if ([self.iseParams.categoryShow isEqualToString:KCCategoryShowWord]) {
             self.textView.text = LocalizedEvaString(KCTextENWord, nil);
+        } else if ([self.iseParams.categoryShow isEqualToString:KCCategoryShowWord2]) {
+            self.textView.text = LocalizedEvaString(KCTextENWord2, nil);
         }
         else {
             self.textView.text = LocalizedEvaString(KCTextENSentence, nil);

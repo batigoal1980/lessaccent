@@ -10,36 +10,31 @@
 	<string>MSCDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
-		<string>https://192.168.75.168:8888/svn/Y_SPA/Trunk/Development/SourceForIOS</string>
+		<key>7EB8579C3D4083A2A0CBD1B7950626C8A49648CB</key>
+		<string>https://github.com/batigoal1980/lessaccent.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MSC/release/control/sample/MSCDemo/MSCDemo.xcodeproj</string>
+	<string>iOS_ise_1.117_55c7bfcb/sample/MSCDemo/MSCDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
-		<string>../../../../../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
-		<string>https://192.168.75.168:8888/svn/Y_SPA</string>
+		<key>7EB8579C3D4083A2A0CBD1B7950626C8A49648CB</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://192.168.75.168:8888/svn/Y_SPA/Trunk/Development/SourceForIOS/MSC/release/control/sample/MSCDemo/MSCDemo.xcodeproj</string>
+	<string>https://github.com/batigoal1980/lessaccent.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2b62823a-d849-f642-89a4-a4e023b26025++38</string>
+	<string>7EB8579C3D4083A2A0CBD1B7950626C8A49648CB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2b62823a-d849-f642-89a4-a4e023b26025++38</string>
+			<string>7EB8579C3D4083A2A0CBD1B7950626C8A49648CB</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SourceForIOS</string>
+			<string>Accent_Startup</string>
 		</dict>
 	</array>
 </dict>

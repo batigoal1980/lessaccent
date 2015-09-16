@@ -20,9 +20,9 @@
 #import "ISEConfig.h"
 
 
-#define INDICATOR_BTN       @"请点击“开始评测”按钮";
-#define INDICATOR_READ      @"请朗读以上内容";
-#define INDICATOR_WAIRING   @"停止评测，结果等待中...";
+#define INDICATOR_BTN       @"Please click Start";
+#define INDICATOR_READ      @"Please speak";
+#define INDICATOR_WAIRING   @"Stop evaluation, Waiting...";
 
 @interface ISEUIViewController ()<ISEResultXmlParserDelegate,IFlySpeechEvaluatorDelegate>
 

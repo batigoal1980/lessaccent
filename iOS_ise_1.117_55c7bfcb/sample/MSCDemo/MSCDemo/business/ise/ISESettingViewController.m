@@ -16,8 +16,8 @@ int const KCSectionCount=1;
 int const KCCellCount=6;
 NSString* const KCCellIdentifier=@"ISESettingCell";
 
-NSString* const KCCancelBtnTitle=@"取消";
-NSString* const KCOkBtnTitle=@"好的";
+NSString* const KCCancelBtnTitle=@"Cancel";
+NSString* const KCOkBtnTitle=@"Okay";
 
 #pragma mark -
 
@@ -162,6 +162,7 @@ NSString* const KCOkBtnTitle=@"好的";
             actionSheet.tag = indexPath.row;
             [actionSheet addButtonWithTitle:KCCategoryShowSentence];
             [actionSheet addButtonWithTitle:KCCategoryShowWord];
+            [actionSheet addButtonWithTitle:KCCategoryShowWord2];
             if(![self.iseParams.language isEqualToString:KCLanguageENUS]){//英文不支持单字
                 [actionSheet addButtonWithTitle:KCCategoryShowSyllable];
             }
@@ -478,8 +479,14 @@ NSString* const KCOkBtnTitle=@"好的";
                     self.iseParams.categoryShow = KCCategoryShowWord;
 				}
 				break;
-
+                    
                 case 2: {
+                    self.iseParams.category = KCCategoryWord2;
+                    self.iseParams.categoryShow = KCCategoryShowWord2;
+                }
+                    break;
+
+                case 3: {
                     if(![self.iseParams.language isEqualToString:KCLanguageENUS]){//英文不支持单字
                         self.iseParams.category = KCCategorySyllable;
                         self.iseParams.categoryShow = KCCategoryShowSyllable;

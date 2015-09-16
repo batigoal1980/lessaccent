@@ -56,7 +56,7 @@
     
     
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
-    temporaryBarButtonItem.title = @"返回";
+    temporaryBarButtonItem.title = @"Back";
     temporaryBarButtonItem.target = self;
     self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
     

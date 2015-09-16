@@ -14,29 +14,31 @@
 
 #pragma mark - const values
 
-NSString* const KCLanguageTitle=@"评测语种";
-NSString* const KCLanguageShowZHCN=@"汉语";
-NSString* const KCLanguageShowENUS=@"英语";
+NSString* const KCLanguageTitle=@"Language";
+NSString* const KCLanguageShowZHCN=@"Chinese";
+NSString* const KCLanguageShowENUS=@"English";
 NSString* const KCLanguageZHCN=@"zh_cn";
 NSString* const KCLanguageENUS=@"en_us";
 
-NSString* const KCCategoryTitle=@"评测题型";
-NSString* const KCCategoryShowSentence=@"句子";
-NSString* const KCCategoryShowWord=@"词语";
-NSString* const KCCategoryShowSyllable=@"单字";
+NSString* const KCCategoryTitle=@"Evaluation Type";
+NSString* const KCCategoryShowSentence=@"Sentence";
+NSString* const KCCategoryShowWord=@"Consonant Word";
+NSString* const KCCategoryShowWord2=@"Vowel Word";
+NSString* const KCCategoryShowSyllable=@"Syllable";
 NSString* const KCCategorySentence=@"read_sentence";
 NSString* const KCCategoryWord=@"read_word";
+NSString* const KCCategoryWord2=@"read_word";
 NSString* const KCCategorySyllable=@"read_syllable";
 
-NSString* const KCRstLevelTitle=@"结果等级";
+NSString* const KCRstLevelTitle=@"Result level";
 NSString* const KCRstLevelPlain=@"plain";
 NSString* const KCRstLevelComplete=@"complete";
 
-NSString* const KCBOSTitle=@"前端点超时";
+NSString* const KCBOSTitle=@"pre timeeout";
 NSString* const KCBOSDefault=@"5000";
-NSString* const KCEOSTitle=@"后端点超时";
+NSString* const KCEOSTitle=@"post timeout";
 NSString* const KCEOSDefault=@"1800";
-NSString* const KCTimeoutTitle=@"评测超时";
+NSString* const KCTimeoutTitle=@"evaluation timeout";
 NSString* const KCTimeoutDefault=@"-1";
 
 NSString* const KCIseDictionaryKey=@"ISEParams";

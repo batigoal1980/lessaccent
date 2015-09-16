@@ -19,9 +19,11 @@ FOUNDATION_EXPORT NSString* const KCLanguageENUS;
 FOUNDATION_EXPORT NSString* const KCCategoryTitle;
 FOUNDATION_EXPORT NSString* const KCCategoryShowSentence;
 FOUNDATION_EXPORT NSString* const KCCategoryShowWord;
+FOUNDATION_EXPORT NSString* const KCCategoryShowWord2;
 FOUNDATION_EXPORT NSString* const KCCategoryShowSyllable;
 FOUNDATION_EXPORT NSString* const KCCategorySentence;
 FOUNDATION_EXPORT NSString* const KCCategoryWord;
+FOUNDATION_EXPORT NSString* const KCCategoryWord2;
 FOUNDATION_EXPORT NSString* const KCCategorySyllable;
 
 FOUNDATION_EXPORT NSString* const KCRstLevelTitle;

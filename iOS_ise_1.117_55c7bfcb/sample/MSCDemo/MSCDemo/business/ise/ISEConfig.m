@@ -36,16 +36,16 @@
 //NSString* const KCCategorySyllable=@"read_syllable";
 
 -(void)defaultSetting {
-    self.language=@"zh_cn";
-    self.category=@"read_sentence";
+    self.language=@"en_us";
+    self.category=@"read_word";
     self.rstLevel=@"complete";
     self.vadBos=@"5000";
     self.vadEos=@"1800";
     self.speechTimeout=@"-1";
     self.sampleRate = @"16000";
     
-    _questionStyleArray = @[@"句子", @"词语", @"单字"];
-    _questionIdentifierArray = @[@"read_sentence", @"read_word", @"read_syllable"];
+    _questionStyleArray = @[@"句子", @"词语", @"词语", @"单字"];
+    _questionIdentifierArray = @[@"read_sentence", @"read_word", @"read_word", @"read_syllable"];
     
 }
 
