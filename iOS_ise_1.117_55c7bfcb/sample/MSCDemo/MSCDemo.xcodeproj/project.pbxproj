@@ -49,6 +49,9 @@
 		84A85DC51B4D14660056929E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A85DC41B4D14660056929E /* Main.storyboard */; };
 		84BE425C1B00C6CD00AC2F69 /* ABNFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE425B1B00C6CD00AC2F69 /* ABNFViewController.m */; };
 		84C06D001AF9AD71002290E6 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C06CFF1AF9AD71002290E6 /* iflyMSC.framework */; };
+		914CA8DB1BAA838F00E74809 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CA8DA1BAA838F00E74809 /* test.png */; };
+		914CA8DD1BAA848500E74809 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914CA8DC1BAA848500E74809 /* Images.xcassets */; };
+		914CA8DF1BAA864D00E74809 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914CA8DE1BAA864D00E74809 /* Images-2.xcassets */; };
 		E92E12EC19F88AF8000AA6DC /* libSunFlower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E12EB19F88AF8000AA6DC /* libSunFlower.a */; };
 		E92E12F619F88BF2000AA6DC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E12F519F88BF2000AA6DC /* CoreTelephony.framework */; };
 		E92E12F819F88BFD000AA6DC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92E12F719F88BFD000AA6DC /* CoreLocation.framework */; };
@@ -144,6 +147,9 @@
 		84BE425A1B00C6CD00AC2F69 /* ABNFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNFViewController.h; sourceTree = "<group>"; };
 		84BE425B1B00C6CD00AC2F69 /* ABNFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNFViewController.m; sourceTree = "<group>"; };
 		84C06CFF1AF9AD71002290E6 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../lib/iflyMSC.framework; sourceTree = "<group>"; };
+		914CA8DA1BAA838F00E74809 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		914CA8DC1BAA848500E74809 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		914CA8DE1BAA864D00E74809 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		E92A0DB6198885D500D563C9 /* MSCDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSCDemo-Prefix.pch"; sourceTree = "<group>"; };
 		E92E12EA19F88AF8000AA6DC /* IFlyFlowerCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFlyFlowerCollector.h; sourceTree = "<group>"; };
 		E92E12EB19F88AF8000AA6DC /* libSunFlower.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSunFlower.a; sourceTree = "<group>"; };
@@ -310,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				845FA0401AFC5465008447CE /* Default-568h@2x.png */,
+				914CA8DA1BAA838F00E74809 /* test.png */,
 				845FA0411AFC5465008447CE /* logo57.png */,
 			);
 			path = icon;
@@ -460,6 +467,8 @@
 				845F9FF41AFC5186008447CE /* business */,
 				845FA0111AFC5186008447CE /* tools */,
 				529DD43E1AE8D6B700A13137 /* storyBoard */,
+				914CA8DC1BAA848500E74809 /* Images.xcassets */,
+				914CA8DE1BAA864D00E74809 /* Images-2.xcassets */,
 				E9706F3D175F383E003B76FC /* Supporting Files */,
 			);
 			path = MSCDemo;
@@ -532,9 +541,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A85DC01B4D0E780056929E /* bnf in Resources */,
+				914CA8DD1BAA848500E74809 /* Images.xcassets in Resources */,
 				845FA0431AFC5465008447CE /* logo57.png in Resources */,
+				914CA8DB1BAA838F00E74809 /* test.png in Resources */,
 				E9706F41175F383E003B76FC /* InfoPlist.strings in Resources */,
 				84A85DC51B4D14660056929E /* Main.storyboard in Resources */,
+				914CA8DF1BAA864D00E74809 /* Images-2.xcassets in Resources */,
 				845FA05C1AFC5552008447CE /* readme.txt in Resources */,
 				529DD4421AE8D7C900A13137 /* Launch Screen.xib in Resources */,
 				84A85DBE1B4D0E140056929E /* eva in Resources */,
@@ -671,6 +683,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -702,6 +716,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
