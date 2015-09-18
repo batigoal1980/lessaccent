@@ -212,7 +212,15 @@ NSString* const KCIFlyResultMute=@"静音";
         if (nil == sentence.words) {
             continue;
         }
-        for (ISEResultWord* word in sentence.words) {
+        
+        NSSortDescriptor *sortDescriptor =
+            [[NSSortDescriptor alloc] initWithKey:@"total_score" ascending:YES];
+        
+        NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+        NSArray *sortedArray;
+        sortedArray = [sentence.words sortedArrayUsingDescriptors:sortDescriptors];
+        
+        for (ISEResultWord* word in sortedArray) {
             NSString* wContent=[ISEResultTools translateContentInfo:word.content];
             NSString* wDpMessage=[ISEResultTools translateDpMessageInfo:word.dp_message];
             if ([KCIFlyResultNoise isEqualToString:wContent] || [KCIFlyResultMute isEqualToString:wContent]){
